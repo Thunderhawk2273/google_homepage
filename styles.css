@@ -27,7 +27,7 @@ ul {
       text-decoration: underline;
   }
 
-.sign-in-button{
+#sign_in_button{
     display: inline-block;
     border: none;
     border-radius: 2px;
@@ -47,7 +47,6 @@ img{
     position: relative;
     margin: 100px 200px 10px 200px;
 }
-
 
 main{
     display: flex;
@@ -76,17 +75,19 @@ input[type=text]{
 
 .buttoncenter{
     display: flex;
-    justify-content: center;
-    margin:10px;
+    margin: auto;
 }
 
 button{
-    
+    position: relative;
     border: none;
     border-radius: 5px;
     background: rgba(40,40,40, 0.075);
     height: 30px;
     width: 150px;
+    top: 25px;
+    left: 0px;
+    right: 0px;
     font-size: 16px;
     justify-content: center;
 }
@@ -101,7 +102,6 @@ button:hover{
 
 footer{
     position: fixed;
-    display: flex;
     width: 100%;
     bottom: 0;
     left: 0;
@@ -109,14 +109,11 @@ footer{
     background-color: rgba(40,40,40, 0.075); 
     border: 10px gray;
 }
+    footer ul li a {
+        color: rgba(40,40,40,0.75);
+    }
 
-footer a{
-    text-decoration: none;
-    color: darkslategrey;
-    padding: 0px;
-    margin: 20px 10px 20px 10px;
+.right{
+    float:right;
 }
 
- footer a .right{
-     text-align: right;
- }
